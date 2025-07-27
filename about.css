@@ -1,0 +1,10 @@
+
+.about-header{
+    text-align: center;
+}
+
+.about-container{
+    border: 2px solid hsl(234, 86%, 51%);
+    border-radius: 15px;
+    padding: 20px;
+}

@@ -1,0 +1,77 @@
+
+.slogan{
+    color: hsl(234, 86%, 51%);
+    text-align: center;
+    margin-top: 75px;
+    padding: 20px;
+}
+
+.introduction{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    padding: 20px;
+    border-color: hsl(234, 86%, 51%);
+    text-align: center;
+    margin-bottom: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.introduction ul{
+    margin: 0 auto;
+    list-style: none;
+    text-align: left;
+    list-style-position: inside;
+    width: max-content;
+}
+
+.introduction li::before{
+    content: "✅";
+}
+.service-header{
+    color: hsl(234, 86%, 51%);
+    text-align: center;
+}
+.service-widgets{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 4em;
+    row-gap: 4em;
+    margin-bottom: 50px;
+
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    font-size: 8em;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: hsl(0, 75%, 61%);
+}
+h2{
+    font-size: 35px;
+    padding: 20px;
+}
+.googleMap{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+footer{
+    background-color: hsl(234, 86%, 51%);
+
+}
+.footer-text{
+    color: white;
+    padding: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
